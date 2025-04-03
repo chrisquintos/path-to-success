@@ -139,6 +139,7 @@ header {
 	color:var(--white);
 	text-align: center;
 	padding: 2em;
+	background-color: var(--purple);
 }
 #menu {
 	background-color: var(--yellow);
@@ -190,6 +191,33 @@ nav a{
 #choose-us li:nth-child(2) { background-color: var(--lavender); } 
 #choose-us li:nth-child(3) { background-color: var(--yellow); }
 
+
+#pricing {
+	background-color: var(--purple);
+}
+
+table{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+th{
+	color: var(--dark-gray);
+	background-color: var(--yellow);
+}
+
+td{
+	background-color: var(--white);
+	color: var(--dark-gray);
+
+}
+
+th, td {
+	border: 1px solid var(--yellow); 
+	padding: 8px; 
+	text-align: left;
+  }
 #first-step{
 	color: var(--white);
 	background-color: var(--pink);
@@ -209,6 +237,7 @@ nav a{
 		border-radius: 8px; 
 		box-shadow: 4px 4px 10px rgba(0.2, 0, 0, 0.2);
 }
+
 
 footer{
 	background-color: var(--purple);
